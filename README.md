@@ -331,6 +331,7 @@ Si no ves una respuesta similar a la que se muestra en la imagen, es posible que
 Como trabajo autonomo, prueba el resto de los verbos HTTP que se mencionan en las historias de usuario los cuales son:
 
 - GET `/tasks`
+- ![Captura desde 2024-07-12 19-07-37](https://github.com/user-attachments/assets/ef45b011-0183-45a7-bb37-62de518a9eda)
 - GET `/tasks/:id`
 - PUT `/tasks/:id`
 - DELETE `/tasks/:id`
