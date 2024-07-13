@@ -6,11 +6,6 @@
 ## Introducción
 Bienvenidos al proyecto de introducción a Node.js. Este proyecto está diseñado para aplicar los conceptos básicos de Node.js y Express que has aprendido durante la primera semana del curso. Crearás una API RESTful que interactúa con el sistema de archivos en lugar de una base de datos.
 
-## Instrucciones de Entrega
-1. Crea un repositorio en GitHub llamado `nodejs-first-project`.
-2. Sigue las instrucciones y completa los objetivos establecidos en este documento.
-3. Sube tu proyecto a GitHub y comparte el enlace del repositorio.
-
 ## Objetivos
 - Configurar un entorno de desarrollo Node.js.
 - Crear un servidor web utilizando Node.js y Express.
@@ -341,7 +336,7 @@ Como trabajo autonomo, prueba el resto de los verbos HTTP que se mencionan en la
 
 ## 8. Preguntas de Reflexión y trabajo investigativo
 
-1. ¿Qué es el filesystem (fs) en Node.js y para qué se utiliza?
+##1. ¿Qué es el filesystem (fs) en Node.js y para qué se utiliza?
  el módulo fs en Node.js es como un conjunto de herramientas que te permite interactuar con los archivos y carpetas en tu computadora desde tu código JavaScript. Piénsalo como una caja de herramientas que Node.js te proporciona para leer, escribir, crear y borrar archivos, así como para gestionar directorios.
 
 Por ejemplo, con el módulo fs, puedes escribir un programa en Node.js que lea el contenido de un archivo, lo modifique y luego lo guarde de nuevo. También puedes crear nuevas carpetas, verificar si un archivo existe, cambiar permisos de archivo, y muchas otras cosas relacionadas con la manipulación de archivos y directorios.
@@ -349,7 +344,7 @@ Por ejemplo, con el módulo fs, puedes escribir un programa en Node.js que lea e
 Es especialmente útil en aplicaciones donde necesitas leer o escribir archivos desde el disco, como bases de datos locales, sistemas de gestión de archivos, o cualquier otra aplicación que necesite interactuar con archivos y directorios en el sistema operativo donde se ejecuta Node.js.
 
 En resumen, fs es como tu asistente para manejar archivos desde Node.js, dándote las herramientas necesarias para trabajar con el sistema de archivos de manera eficiente y segura.
-2. ¿Qué es un middleware en Express y cuál es su propósito?
+##2. ¿Qué es un middleware en Express y cuál es su propósito?
 
 un middleware es como un ayudante que procesa las solicitudes que llegan al servidor antes de que realmente se responda a esas solicitudes. Imagina que tienes un restaurante y cada mesero representa un middleware. Cuando un cliente hace un pedido, el mesero (middleware) puede hacer cosas como verificar si el cliente está autorizado para pedir, registrar qué pedido se hizo, o incluso modificar el plato antes de que llegue a la mesa.
 
@@ -358,7 +353,7 @@ Entonces, el propósito principal de los middlewares en Express es manejar difer
 En resumen, los middlewares en Express son como los empleados dedicados a garantizar que cada solicitud sea manejada de manera adecuada y eficiente, asegurándose de que todo funcione sin problemas en tu aplicación web.
 
 
-3. ¿Qué es un endpoint en una API RESTful y cuál es su función?
+##3. ¿Qué es un endpoint en una API RESTful y cuál es su función?
   en una API RESTful, un "endpoint" es como la dirección específica de un recurso, similar a una dirección en un mapa que te lleva a un lugar específico. Cada endpoint define dónde y cómo puedes interactuar con los datos dentro de esa API.
 
 Imagina que estás en una tienda en línea y cada producto tiene una etiqueta con un código de barras. Cada código de barras es como un endpoint en la API de la tienda. Escaneando el código, puedes ver detalles del producto, agregarlo al carrito, actualizar su cantidad o incluso eliminarlo.
@@ -369,7 +364,7 @@ En resumen, los endpoints en una API RESTful actúan como los accesos directos q
 
 
 
-4. ¿Qué son los verbos HTTP y cuáles son los más comunes?
+##4. ¿Qué son los verbos HTTP y cuáles son los más comunes?
   los verbos HTTP son como instrucciones que usamos al navegar por internet para interactuar con diferentes partes de un sitio web o una aplicación. Cada verbo describe qué tipo de acción queremos realizar sobre un recurso específico que está en un servidor.
 
     GET: Es como pedir ver algo. Por ejemplo, cuando abres una página web o consultas el perfil de un usuario en redes sociales, estás usando el verbo GET para obtener esa información.
@@ -392,7 +387,7 @@ Estos verbos son esenciales para comunicarnos con los servidores web y realizar 
 
 
 
-5. ¿Qué es JSON y por qué es utilizado en las API RESTful?
+##5. ¿Qué es JSON y por qué es utilizado en las API RESTful?
   Claro, JSON (JavaScript Object Notation) es como un formato de comunicación universal que usamos para enviar y recibir datos entre aplicaciones y servidores en internet. Es muy popular en las APIs RESTful por varias razones importantes:
 
 1. **Simplicidad y Claridad:** JSON utiliza una estructura sencilla de pares clave-valor que es fácil de entender tanto para personas como para programas. Esto hace que sea muy accesible y legible.
@@ -411,7 +406,7 @@ En resumen, JSON es fundamental en las APIs RESTful porque proporciona una forma
 
 
 
-6. En lo que respecta al envio de datos a lo largo de los verbos http responde:
+##6. En lo que respecta al envio de datos a lo largo de los verbos http responde:
     - ¿Qué es el body de una petición?
     - ¿Qué es el body de una respuesta?
     - ¿Qué es el query de una petición?
@@ -438,7 +433,7 @@ Es importante entender estos conceptos para manejar adecuadamente las solicitude
     
 
 
-7. En lo que respecta al verbo POST responde:
+##7. En lo que respecta al verbo POST responde:
     - ¿Qué es un verbo POST y cuál es su propósito?
     - ¿Cuándo se utiliza un verbo POST?
     - ¿En qué se diferencia un verbo POST de los otros verbos HTTP como GET, PUT y DELETE?
@@ -467,7 +462,7 @@ En resumen, POST es fundamental para enviar datos desde el cliente al servidor e
 
 
 
-8. En lo que respecta al verbo GET responde:
+##8. En lo que respecta al verbo GET responde:
     - ¿Qué es un verbo GET y cuál es su propósito?
     - ¿Cuándo se utiliza un verbo GET?
     - ¿En qué se diferencia un verbo GET de los otros verbos HTTP como POST, PUT y DELETE?
@@ -495,20 +490,20 @@ En resumen, GET es utilizado principalmente para recuperar datos del servidor de
 
 
 
-9. En lo que respecta al verbo PUT responde:
+##9. En lo que respecta al verbo PUT responde:
     - ¿Qué es un verbo PUT y cuál es su propósito?
     - ¿Cuándo se utiliza un verbo PUT?
     - ¿En qué se diferencia un verbo PUT de los otros verbos HTTP como POST, GET y DELETE?
 
 Aquí tienes las respuestas relacionadas con el verbo PUT en HTTP:
 
-1. **¿Qué es un verbo PUT y cuál es su propósito?**
+9.1. **¿Qué es un verbo PUT y cuál es su propósito?**
    - PUT es un verbo HTTP que se utiliza para enviar datos al servidor para crear o actualizar un recurso específico en una ubicación predefinida. Su propósito principal es modificar o crear un recurso identificado por la URL en el servidor según los datos proporcionados en el cuerpo de la solicitud.
 
-2. **¿Cuándo se utiliza un verbo PUT?**
+9.2. **¿Cuándo se utiliza un verbo PUT?**
    - PUT se utiliza cuando se desea actualizar completamente un recurso existente en el servidor con los datos proporcionados en la solicitud. También se puede utilizar para crear un nuevo recurso si la URL específica no existe previamente en el servidor. Es importante destacar que PUT es idempotente, lo que significa que realizar la misma solicitud PUT varias veces debería tener el mismo efecto que hacerlo una sola vez.
 
-3. **¿En qué se diferencia un verbo PUT de los otros verbos HTTP como POST, GET y DELETE?**
+9.3. **¿En qué se diferencia un verbo PUT de los otros verbos HTTP como POST, GET y DELETE?**
    - **POST**: Se utiliza para enviar datos al servidor para que sean procesados, generalmente para crear nuevos recursos o realizar acciones que no son idempotentes. POST no garantiza la idempotencia.
    - **GET**: Se utiliza para recuperar datos del servidor y no debe tener ningún efecto secundario en el servidor. Es idempotente.
    - **DELETE**: Se utiliza para eliminar un recurso específico en el servidor. Es idempotente.
@@ -523,20 +518,20 @@ En resumen, PUT es esencial en HTTP para actualizar o crear recursos de manera i
 
 
 
-10. En lo que respecta al verbo DELETE responde:
+##10. En lo que respecta al verbo DELETE responde:
     - ¿Qué es un verbo DELETE y cuál es su propósito?
     - ¿Cuándo se utiliza un verbo DELETE?
     - ¿En qué se diferencia un verbo DELETE de los otros verbos HTTP como POST, GET y PUT?
 
     Aquí tienes las respuestas relacionadas con el verbo DELETE en HTTP:
 
-1. **¿Qué es un verbo DELETE y cuál es su propósito?**
+10.1. **¿Qué es un verbo DELETE y cuál es su propósito?**
    - DELETE es un verbo HTTP utilizado para solicitar al servidor que elimine un recurso específico identificado por la URL proporcionada. Su propósito principal es eliminar permanentemente el recurso en el servidor que coincide con la URL especificada en la solicitud.
 
-2. **¿Cuándo se utiliza un verbo DELETE?**
+10.2. **¿Cuándo se utiliza un verbo DELETE?**
    - DELETE se utiliza cuando se desea eliminar un recurso específico en el servidor. Por ejemplo, podría utilizarse para eliminar un artículo de una base de datos, un archivo almacenado en un servidor, o cualquier otro tipo de recurso que sea identificado de manera única por una URL.
 
-3. **¿En qué se diferencia un verbo DELETE de los otros verbos HTTP como POST, GET y PUT?**
+10.3. **¿En qué se diferencia un verbo DELETE de los otros verbos HTTP como POST, GET y PUT?**
    - **POST**: Se utiliza para enviar datos al servidor para ser procesados, generalmente para crear nuevos recursos o realizar acciones que no son idempotentes. No es idempotente.
    - **GET**: Se utiliza para recuperar datos del servidor y no debe tener ningún efecto secundario en el servidor. Es idempotente.
    - **PUT**: Se utiliza para actualizar o crear un recurso específico en el servidor. Es idempotente.
@@ -550,28 +545,28 @@ En resumen, DELETE es crucial en HTTP para eliminar recursos específicos en el 
 
 
 
-11. ¿Qué es un status code y cuáles son los más comunes?
+##11. ¿Qué es un status code y cuáles son los más comunes?
 Un status code (código de estado) es un número de tres dígitos devuelto por el servidor HTTP en respuesta a una solicitud realizada por un cliente (como un navegador web o una aplicación). Este código de estado proporciona información sobre el estado de la solicitud realizada y si se completó correctamente o no. Los status codes se dividen en cinco clases principales:
 
-1. **1xx - Respuestas informativas**: Indican que la solicitud ha sido recibida y el servidor está procesando la solicitud.
+11.1. **1xx - Respuestas informativas**: Indican que la solicitud ha sido recibida y el servidor está procesando la solicitud.
    - Ejemplo común: **100 Continue** (indica que el servidor ha recibido los encabezados de solicitud y el cliente debe proceder con la solicitud).
 
-2. **2xx - Respuestas satisfactorias**: Indican que la solicitud fue recibida, comprendida y aceptada correctamente por el servidor.
+11.2. **2xx - Respuestas satisfactorias**: Indican que la solicitud fue recibida, comprendida y aceptada correctamente por el servidor.
    - Ejemplos comunes:
      - **200 OK** (indica que la solicitud ha tenido éxito).
      - **201 Created** (indica que la solicitud ha tenido éxito y se ha creado un nuevo recurso).
 
-3. **3xx - Redirecciones**: Indican que se necesita tomar medidas adicionales para completar la solicitud.
+11.3. **3xx - Redirecciones**: Indican que se necesita tomar medidas adicionales para completar la solicitud.
    - Ejemplos comunes:
      - **301 Moved Permanently** (indica que la URL solicitada ha sido permanentemente movida a una nueva ubicación).
      - **302 Found** (indica que la solicitud debe ser redirigida temporalmente a otra URL).
 
-4. **4xx - Errores del cliente**: Indican que hubo un error por parte del cliente al realizar la solicitud.
+11.4. **4xx - Errores del cliente**: Indican que hubo un error por parte del cliente al realizar la solicitud.
    - Ejemplos comunes:
      - **400 Bad Request** (indica que la solicitud del cliente no se pudo entender por parte del servidor).
      - **404 Not Found** (indica que el recurso solicitado no fue encontrado en el servidor).
 
-5. **5xx - Errores del servidor**: Indican que hubo un error en el servidor al intentar procesar la solicitud del cliente.
+11.5. **5xx - Errores del servidor**: Indican que hubo un error en el servidor al intentar procesar la solicitud del cliente.
    - Ejemplos comunes:
      - **500 Internal Server Error** (indica que ocurrió un error interno en el servidor y no pudo completar la solicitud).
      - **503 Service Unavailable** (indica que el servidor no está disponible temporalmente debido a sobrecarga o mantenimiento).
@@ -579,65 +574,65 @@ Un status code (código de estado) es un número de tres dígitos devuelto por e
 Estos son algunos de los status codes más comunes utilizados en HTTP para comunicar el resultado de las solicitudes entre clientes y servidores. Cada código de estado tiene un significado específico que ayuda a diagnosticar y solucionar problemas relacionados con las comunicaciones HTTP.
 
 
-12. ¿Cuales son los status code mas comunes para el verbo POST?
+##12. ¿Cuales son los status code mas comunes para el verbo POST?
 Para el verbo POST en HTTP, los status codes más comunes que pueden ser devueltos por el servidor incluyen aquellos que indican el resultado de la solicitud POST específicamente. Aquí algunos de los status codes más comunes para el verbo POST:
 
-1. **200 OK**:
+12.1. **200 OK**:
    - Indica que la solicitud POST fue exitosa. El servidor ha recibido, entendido y aceptado la solicitud.
 
-2. **201 Created**:
+12.2. **201 Created**:
    - Indica que la solicitud POST ha sido exitosa y que ha resultado en la creación de un nuevo recurso en el servidor.
 
-3. **400 Bad Request**:
+12.3. **400 Bad Request**:
    - Indica que la solicitud POST no pudo ser entendida o procesada por el servidor debido a un error en el formato de la solicitud o datos inválidos enviados por el cliente.
 
-4. **401 Unauthorized**:
+12.4. **401 Unauthorized**:
    - Indica que la solicitud POST no fue aceptada porque el cliente no ha proporcionado las credenciales de autenticación válidas necesarias.
 
-5. **403 Forbidden**:
+12.5. **403 Forbidden**:
    - Indica que el servidor entendió la solicitud POST, pero está rechazando procesarla debido a restricciones en el acceso o permisos del cliente.
 
-6. **404 Not Found**:
+12.6. **404 Not Found**:
    - Indica que el servidor no pudo encontrar el recurso solicitado por la URL especificada en la solicitud POST.
 
-7. **409 Conflict**:
+12.7. **409 Conflict**:
    - Indica que la solicitud POST no pudo ser completada debido a un conflicto con el estado actual del recurso en el servidor.
 
-8. **500 Internal Server Error**:
+12.8. **500 Internal Server Error**:
    - Indica que ocurrió un error interno en el servidor mientras procesaba la solicitud POST, lo cual impidió que se completara correctamente.
 
 Estos status codes son utilizados por los servidores HTTP para comunicar el resultado de una solicitud POST específica. La elección del código de estado dependerá de la situación específica que haya ocurrido durante el procesamiento de la solicitud por parte del servidor.
 
 
 
-13. ¿Cuales son los status code mas comunes para el verbo GET?
+##13. ¿Cuales son los status code mas comunes para el verbo GET?
 Para el verbo GET en HTTP, los status codes más comunes que pueden ser devueltos por el servidor incluyen aquellos que indican el resultado de la solicitud GET específicamente. Aquí algunos de los status codes más comunes para el verbo GET:
 
-1. **200 OK**:
+13.1. **200 OK**:
    - Indica que la solicitud GET fue exitosa. El servidor ha encontrado y devuelto el recurso solicitado.
 
-2. **301 Moved Permanently**:
+13.2. **301 Moved Permanently**:
    - Indica que la URL solicitada ha sido permanentemente movida a una nueva ubicación. El cliente debería redirigir sus futuras solicitudes a la URL nueva.
 
-3. **302 Found**:
+13.3. **302 Found**:
    - Indica que la URL solicitada ha sido temporalmente movida a una nueva ubicación. El cliente debería redirigir sus futuras solicitudes a la URL temporalmente nueva.
 
-4. **304 Not Modified**:
+13.4. **304 Not Modified**:
    - Indica que el recurso solicitado no ha sido modificado desde la última vez que fue solicitado. Esto se utiliza en respuestas condicionales.
 
-5. **400 Bad Request**:
+13.5. **400 Bad Request**:
    - Indica que la solicitud GET no pudo ser entendida o procesada por el servidor debido a un error en el formato de la solicitud o datos inválidos enviados por el cliente.
 
-6. **401 Unauthorized**:
+13.6. **401 Unauthorized**:
    - Indica que la solicitud GET no fue aceptada porque el cliente no ha proporcionado las credenciales de autenticación válidas necesarias.
 
-7. **403 Forbidden**:
+13.7. **403 Forbidden**:
    - Indica que el servidor entendió la solicitud GET, pero está rechazando procesarla debido a restricciones en el acceso o permisos del cliente.
 
-8. **404 Not Found**:
+13.8. **404 Not Found**:
    - Indica que el servidor no pudo encontrar el recurso solicitado por la URL especificada en la solicitud GET.
 
-9. **500 Internal Server Error**:
+13.9. **500 Internal Server Error**:
    - Indica que ocurrió un error interno en el servidor mientras procesaba la solicitud GET, lo cual impidió que se completara correctamente.
 
 Estos son algunos de los status codes más comunes que pueden ser devueltos en respuesta a una solicitud GET. La elección del código de estado dependerá de la situación específica que haya ocurrido durante el procesamiento de la solicitud por parte del servidor.
@@ -645,62 +640,62 @@ Estos son algunos de los status codes más comunes que pueden ser devueltos en r
 
 
 
-14. ¿Cuales son los status code mas comunes para el verbo PUT?
+##14. ¿Cuales son los status code mas comunes para el verbo PUT?
 Para el verbo PUT en HTTP, los status codes más comunes que pueden ser devueltos por el servidor incluyen aquellos que indican el resultado de la solicitud PUT específicamente. Aquí algunos de los status codes más comunes para el verbo PUT:
 
-1. **200 OK**:
+14.1. **200 OK**:
    - Indica que la solicitud PUT fue exitosa. El servidor ha actualizado el recurso especificado por la URL correctamente.
 
-2. **201 Created**:
+14.2. **201 Created**:
    - Indica que la solicitud PUT ha sido exitosa y que ha resultado en la creación de un nuevo recurso en el servidor en la URL especificada.
 
-3. **400 Bad Request**:
+14.3. **400 Bad Request**:
    - Indica que la solicitud PUT no pudo ser entendida o procesada por el servidor debido a un error en el formato de la solicitud o datos inválidos enviados por el cliente.
 
-4. **401 Unauthorized**:
+14.4. **401 Unauthorized**:
    - Indica que la solicitud PUT no fue aceptada porque el cliente no ha proporcionado las credenciales de autenticación válidas necesarias.
 
-5. **403 Forbidden**:
+14.5. **403 Forbidden**:
    - Indica que el servidor entendió la solicitud PUT, pero está rechazando procesarla debido a restricciones en el acceso o permisos del cliente.
 
-6. **404 Not Found**:
+14.6. **404 Not Found**:
    - Indica que el servidor no pudo encontrar el recurso especificado por la URL en la solicitud PUT.
 
-7. **409 Conflict**:
+14.7. **409 Conflict**:
    - Indica que la solicitud PUT no pudo ser completada debido a un conflicto con el estado actual del recurso en el servidor.
 
-8. **500 Internal Server Error**:
+14.8. **500 Internal Server Error**:
    - Indica que ocurrió un error interno en el servidor mientras procesaba la solicitud PUT, lo cual impidió que se completara correctamente.
 
 Estos son algunos de los status codes más comunes que pueden ser devueltos en respuesta a una solicitud PUT. La elección del código de estado dependerá de la situación específica que haya ocurrido durante el procesamiento de la solicitud por parte del servidor.
 
 
 
-15. ¿Cuales son los status code mas comunes para el verbo DELETE?
+##15. ¿Cuales son los status code mas comunes para el verbo DELETE?
 Para el verbo DELETE en HTTP, los status codes más comunes que pueden ser devueltos por el servidor incluyen aquellos que indican el resultado de la solicitud DELETE específicamente. Aquí algunos de los status codes más comunes para el verbo DELETE:
 
-1. **200 OK**:
+15.1. **200 OK**:
    - Indica que la solicitud DELETE fue exitosa. El servidor ha eliminado el recurso especificado por la URL correctamente.
 
-2. **204 No Content**:
+15.2. **204 No Content**:
    - Indica que la solicitud DELETE fue exitosa y que no hay contenido para devolver en la respuesta.
 
-3. **400 Bad Request**:
+15.3. **400 Bad Request**:
    - Indica que la solicitud DELETE no pudo ser entendida o procesada por el servidor debido a un error en el formato de la solicitud o datos inválidos enviados por el cliente.
 
-4. **401 Unauthorized**:
+15.4. **401 Unauthorized**:
    - Indica que la solicitud DELETE no fue aceptada porque el cliente no ha proporcionado las credenciales de autenticación válidas necesarias.
 
-5. **403 Forbidden**:
+15.5. **403 Forbidden**:
    - Indica que el servidor entendió la solicitud DELETE, pero está rechazando procesarla debido a restricciones en el acceso o permisos del cliente.
 
-6. **404 Not Found**:
+15.6. **404 Not Found**:
    - Indica que el servidor no pudo encontrar el recurso especificado por la URL en la solicitud DELETE.
 
-7. **409 Conflict**:
+15.7. **409 Conflict**:
    - Indica que la solicitud DELETE no pudo ser completada debido a un conflicto con el estado actual del recurso en el servidor.
 
-8. **500 Internal Server Error**:
+15.8. **500 Internal Server Error**:
    - Indica que ocurrió un error interno en el servidor mientras procesaba la solicitud DELETE, lo cual impidió que se completara correctamente.
 
 Estos son algunos de los status codes más comunes que pueden ser devueltos en respuesta a una solicitud DELETE. La elección del código de estado dependerá de la situación específica que haya ocurrido durante el procesamiento de la solicitud por parte del servidor.
