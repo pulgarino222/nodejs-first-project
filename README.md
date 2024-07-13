@@ -336,6 +336,8 @@ Como trabajo autonomo, prueba el resto de los verbos HTTP que se mencionan en la
 - PUT `/tasks/:id`
 - ![Captura desde 2024-07-12 19-20-27](https://github.com/user-attachments/assets/b05b02a8-16ca-449a-9a4c-cf314163d0ca)
 - DELETE `/tasks/:id`
+![Captura desde 2024-07-12 19-24-41](https://github.com/user-attachments/assets/347f9d9d-3d27-4d75-a314-d227108d63b8)
+
 
 ## 8. Preguntas de Reflexión y trabajo investigativo
 
