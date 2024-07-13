@@ -366,6 +366,9 @@ Imagina que estás en una tienda en línea y cada producto tiene una etiqueta co
 Entonces, la función principal de un endpoint es proporcionar un camino claro y definido para que las aplicaciones (o los clientes) se comuniquen con la API. Los endpoints permiten realizar operaciones como obtener datos, crear nuevos registros, actualizar información existente o eliminar registros, todo utilizando métodos estándar de HTTP como obtener (GET), crear (POST), actualizar (PUT), y eliminar (DELETE).
 
 En resumen, los endpoints en una API RESTful actúan como los accesos directos que te permiten interactuar y gestionar los datos de manera efectiva a través de internet, siguiendo un conjunto de reglas y direcciones bien definidas.
+
+
+
 4. ¿Qué son los verbos HTTP y cuáles son los más comunes?
   los verbos HTTP son como instrucciones que usamos al navegar por internet para interactuar con diferentes partes de un sitio web o una aplicación. Cada verbo describe qué tipo de acción queremos realizar sobre un recurso específico que está en un servidor.
 
@@ -386,6 +389,7 @@ En resumen, los endpoints en una API RESTful actúan como los accesos directos q
 Estos verbos son esenciales para comunicarnos con los servidores web y realizar acciones específicas sobre los datos que manejamos en internet.
 
 5. ¿Qué es JSON y por qué es utilizado en las API RESTful?
+
 6. En lo que respecta al envio de datos a lo largo de los verbos http responde:
     - ¿Qué es el body de una petición?
     - ¿Qué es el body de una respuesta?
